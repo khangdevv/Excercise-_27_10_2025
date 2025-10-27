@@ -10,6 +10,14 @@ int tich(int a, int b){
 	return a * b;
 }
 float thuong(int a, int b);
+
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
